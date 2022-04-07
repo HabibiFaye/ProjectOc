@@ -1,0 +1,516 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+
+/*           ggg            */
+
+header img {
+    width: 100%;
+    height: 45px;
+    margin-top: -6px;
+}
+
+
+/*-----------  -- -------- ---------------     gggggggg      ---------------   -------------- -------- */
+
+#first-entete {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-entete ul {
+    display: flex;
+}
+
+ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+#p1 {
+    margin-top: -15px;
+}
+
+header>h3 {
+    margin-top: 3px;
+    /*border: 1px solid #000;*/
+}
+
+form input {
+    /* border: 1px solid #000;*/
+    position: relative;
+    right: 47px;
+}
+
+.text {
+    height: 50px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 55px;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+}
+
+.rechearch {
+    width: 130px;
+    height: 50px;
+    margin-left: -5px;
+    background: #0065FC;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#search {
+    display: none;
+}
+
+.rechearch:hover {
+    opacity: 0.7;
+}
+
+.fa-map-marker-alt {
+    height: 50px;
+    color: rgb(17, 6, 6);
+    width: 40px;
+    background: #f2f2f2;
+    position: relative;
+    left: -3px;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav {
+    display: flex;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    height: 80px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+}
+
+nav ul li {
+    border-radius: 26px;
+    height: 40px;
+    width: 150px;
+    font-weight: bolder;
+    border-color: #f2f2f2;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+nav ul li:last-child {
+    height: 40px;
+    width: 190px;
+    padding-left: 35px;
+}
+
+nav p {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+nav+p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.fa-info-circle {
+    border: none;
+    background: #0065FC;
+    border-radius: 100%;
+    margin-right: 7px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+nav ul li:hover {
+    opacity: 0.8;
+    color: royalblue;
+    border: none;
+}
+
+nav .fas {
+    border: 1px solid #000;
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    margin-right: 0px;
+    left: -2px;
+    top: -1px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border: none;
+    border-radius: 100%;
+    padding-top: 12px;
+}
+
+header {
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 10px;
+}
+
+
+/*----------------------------------- section1 -------------------------------- */
+
+#container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.span-bold {
+    font-weight: bolder;
+}
+
+.span-style {
+    font-weight: lighter;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.star {
+    /* border: 1px solid #000;*/
+    color: #0065FC;
+}
+
+#blochebergement .star {
+    margin-top: -10px;
+    padding-left: 8px;
+}
+
+.star-1 .fas:nth-child(5) {
+    color: #dad6d6;
+}
+
+.star-2 .fas:nth-child(4) {
+    color: #dad6d6;
+}
+
+.star-2 .fas:nth-child(5) {
+    color: #dad6d6;
+}
+
+#container-1 #article {
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+#blochebergement {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-hebergement {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 240px;
+    height: 190px;
+    border-radius: 13px;
+    justify-content: space-around;
+    margin-right: 35px;
+    margin-bottom: 40px;
+}
+
+.box-hebergement p:nth-child(1) {
+    /*border: 1px solid #000;*/
+    margin-top: 0px;
+}
+
+.box-hebergement img {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    height: 110px;
+    width: 240px;
+    padding: 2px 5px;
+    object-fit: cover;
+}
+
+.nom-Hebergement {
+    /*border: 1px solid #000;*/
+    margin-top: -12px;
+    padding-left: 8px;
+}
+
+
+/*        aside    */
+
+aside {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 35%;
+    /*margin-left: 30px;*/
+}
+
+#bloc-titre {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.fa-chart-line {
+    align-self: center;
+    font-size: 30px;
+}
+
+
+/* les images qui se trouve dans le bloc aside */
+
+aside img {
+    height: 145px;
+    width: 155px;
+    /*border: 1px solid #000;*/
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.box-imagePopulaire {
+    display: flex;
+    border-radius: 18px;
+    background: white;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 80%;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.boite {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+aside h3 {
+    margin-left: 33px;
+}
+
+
+/*-------------------------------------- section 2 -------------------------------------------------------------------*/
+
+
+/* la deuxieme section de la page qui contient le titre et la section*/
+
+#container-2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
+/* le bloc  qui joue le role de 'article et contient un ensemble de div */
+
+#container-2 #article-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* les images qui se trouvent dans articles de la deuxieme section */
+
+#article-2 img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+}
+
+#article a {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* c'est un  bloc qui contient les images et les titres */
+
+.box-activite {
+    border-radius: 25px;
+}
+
+
+/* Concerne les ombres pour les images d'une hauteur  */
+
+.shadow {
+    box-shadow: 1px 1px 2px 3px #f2f2f2;
+    /* border-radius: 25px;*/
+    width: 21%;
+}
+
+
+/* les images qui ont une classe .shadow <vieu port> <parc national>*/
+
+.shadow img {
+    height: 400px;
+    width: 100%;
+}
+
+
+/* les paragraphes qui se trouvent dans le sous bloc bloc-activite
+les titres*/
+
+.box-activite p {
+    margin-left: 30px;
+    font-weight: bolder;
+    /* border: 1px solid #000;*/
+    padding: 0px;
+}
+
+
+/* le titre h2 qui se trouve dans la deuxieme section*/
+
+#container-2 h2 {
+    margin-top: 0px;
+    /*border: 1px solid #000;*/
+    padding-left: 30px;
+}
+
+
+/*le premier sousBloc(section-2) qui se trouvent dans le bloc activite< largeur max>*/
+
+#sousBlocS2 img {
+    /*border: 1px solid #000;*/
+    width: 100%;
+    height: 170px;
+}
+
+#sousBlocS2 {
+    height: 230px;
+    width: 100%;
+}
+
+
+/* le paragraphe qui se trouve dans l'id sousbLoc*/
+
+#sousBlocS2 p {
+    margin-top: 14px;
+    /*border: 1px solid #000;*/
+}
+
+
+/* concerne les ombres pour les ptis bloc */
+
+.mini-box-shadow {
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 2px #f2f2f2;
+    width: 100%;
+}
+
+
+/*le deuxieme sousBloc(section-2) qui se trouvent dans le bloc activite< largeur max>*/
+
+#sousBlocS2_ img {
+    width: 100%;
+    height: 125px;
+}
+
+
+/* -------- les deux blocs qui se trouvent dans le box-activite ----------- */
+
+.mini-boxActivite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.i2 {
+    width: 23%;
+}
+
+
+/* les deux derniers sousBlocs qui se trouve dans le box activités */
+
+.mini-boxActivite:last-child img {
+    width: 100%;
+    height: 150px;
+    /*border: 1px solid #000;*/
+}
+
+
+/*. --------------------------------------------------------------------------- footer ------------------------------------------------------------*/
+
+.box-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+#footer1 {
+    margin-left: 30px;
+}
+
+#footer3 {
+    margin-right: 200px;
+}
+
+footer {
+    background: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: lighter;
+    font-size: 16px;
+}

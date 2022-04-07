@@ -1,0 +1,15 @@
+.class {
+    background: rgb(28, 70, 207);
+    color: white;
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+    min-width: 400px;
+}
+
+p {
+    box-sizing: border-box;
+    color: white;
+    background: #000;
+    width: 30%;
+}

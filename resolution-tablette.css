@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background: orange;*/
+    font-family: 'Raleway', sans-serif;
+    width: auto;
+    margin: auto;
+}
+
+
+/* j'ai reduis les marges gauche et droites et le padding right j'ai mi l'elemnt parent en position realtive et j'ai mi les icones en position absolutes ces dernier vont se positioner non par rapport à boddy par rapport a son parrent li*/
+
+nav {
+    width: auto;
+    /*border: 1px solid #000;*/
+    /*min-width: 190px;*/
+    justify-content: flex-start;
+}
+
+nav>P {
+    margin-right: 10px;
+}
+
+nav ul {
+    width: auto;
+    /* border: 1px solid #d9dd00;*/
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-width: 190px;*/
+}
+
+nav ul li {
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-right: 5px;
+    width: auto;
+    /* border: 1px solid rgb(192, 0, 0);*/
+    /* max-width: 150px;*/
+}
+
+
+/* j'ai repositioner les icones par rapprt à son element parent li   */
+
+header a:hover {
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 3px;
+    border-top: none;
+}
+
+header a {
+    /*border: 1px solid #000;*/
+    padding-top: 20px;
+}
+
+#container-1 {
+    display: flex;
+}
+
+#container-1 #article {
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+#blochebergement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-hebergement {
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+
+/*-------      section1  --------------------------------------------------   */
+
+
+/* les images qui se trouvent dans l'hebergement à Marseille*/
+
+
+/* la premiere section  qui contient l'id article et le bloc aside */
+
+
+/* #container-1 {
+            display: flex;
+            justify-content: space-around;
+            width: auto;
+            border: 1px solid #000;
+        }*/
+
+
+/* la classe box-heberment contient les images des hebergements à marseille et 
+ ainsi que les etoiles */
+
+
+/* l'id article qui se trouve dans dans le premier contenu ( la premiere section) 
+je l'es donné une largeur minimal de 500px */
+
+
+/* le titre de l'article */
+
+#hebergement {
+    font-size: 30px;
+    align-self: center;
+}
+
+
+/* le bloc < le plus populaire > j'ai utilié flexbox j'ai centre le contenu horizontaement et verticalement 
+je l'es donne une largeur max de 40% */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+
+/*#bloc-titre {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            width: 100%;
+        }*/
+
+
+/*.fa-chart-line {
+            position: absolute;
+            right: 10px;
+            top: 15px;
+            font-size: 25px;
+        }*/
+
+aside h3 {
+    font-size: 23px;
+    width: auto;
+    margin: 0px;
+}
+
+#bloc-titre {
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+
+/*  le bloc qui contient tous les hebergements à Marseille
+j'ai utilisé encor flexbox et j'ai centré le contenu au milieu horizontalement et verticalement 
+et j'ai utilisé flex-wrap pour que les contenu vont à la ligne s'il n'ont plus de place */
+
+
+/*#blochebergement {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }*/
+
+
+/* le blox qui se trouve dans les plus populaires qui contient les images et les etoiles */
+
+.box-imagePopulaire {
+    /*border: 1px solid #000;*/
+    display: flex;
+    border-radius: 18px;
+    background: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    height: 290px;
+    flex-direction: column;
+    width: 270px;
+}
+
+aside img {
+    height: 175px;
+    width: 270px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 18px;
+    position: relative;
+    top: -16px;
+}
+
+.boite {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: flex-start;
+    position: relative;
+    top: -50px;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.position {
+    position: relative;
+    top: -28px;
+}
+
+.box-imagePopulaire .star {
+    margin-bottom: 0px;
+}
+
+
+/* c'est le bloc quise trouve dans aside et qui  contient le texte et  les etoites  */
+
+
+/*.boite {
+        /*border: 1px solid #000;*/
+
+
+/*display: flex;
+flex-direction: column;
+height: 120px;
+justify-content: flex-start;*/
+
+
+/* position: absolute;
+    bottom: 0px;
+    left: 0px;*/
+
+
+/* -------------------------------section 2 --------------------- */
+
+#container-2 {
+    margin-top: 50px;
+}
+
+#container-2 #article-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#activite {
+    font-size: 35px;
+}
+
+#article a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#article :last-child {
+    align-self: flex-start;
+}
+
+#article a:hover {
+    font-weight: bolder;
+    color: #0065FC;
+    text-decoration: underline;
+}
+
+.shadow {
+    width: 35%;
+    box-shadow: 1px 1px 1px 1px #f2f2f2;
+}
+
+.i2 {
+    width: 35%;
+}
+
+.mini-boxActivite {
+    width: 35%;
+}
+
+.box-activite {
+    margin-bottom: 40px;
+}
+
+
+/* -----------------------------------------------------------------------------------  footer  ------------------------------*/
+
+footer {
+    justify-content: space-around;
+}
+
+#footer3 {
+    margin-right: 0px;
+}
